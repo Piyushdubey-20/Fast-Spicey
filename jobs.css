@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0);
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.447);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.447);
+
+}
+    
+.img1{
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.img1 img{
+    width: 5vh;
+    transform: rotate(30deg);
+  
+}
+.img1 img:hover{
+    width: 5.5vh;
+    transition: all 0.1s ease-out;   
+
+}
+    
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    font-family: "Red Hat Display", serif;
+    font-weight: 300;
+    padding-right:1rem;
+    padding-left: 1rem;
+    padding-bottom: 0rem;
+    border-bottom: 0px;
+    
+}
+ 
+.navbar ul li:hover{
+    font-weight: 500;
+    border-bottom: 2px solid red;
+    transition: all 0.1s ease-out;
+    background-color: rgba(0, 0, 0, 0.447);
+}    
+    
+.navbar a{
+    color: red;
+    text-decoration: none;
+}
+.navbar a:hover{
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero{
+  
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    bottom: 18vh;
+
+   
+}
+
+.img2{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pics/job3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.382);
+    position: absolute;
+    top: 0;
+    
+}
+    
+
+.h1{
+    font-family: "Red Hat Display", serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 35vh;
+    color: #fff;
+    font-size: 2rem;
+    
+}
+.h1:hover{
+    font-size: 1.9rem;
+    color: red;
+    transition: all 0.1s ease-in-out;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 35vh;
+}
+.search input{
+    width: 30.8vw;
+    height: 7vh;
+    border-radius: 20vw;
+    font-family: "Red Hat Display", serif;
+    border: 2px solid rgb(39,39,39);
+    color: red;
+}
+.search input:hover{
+    background-color:red ;
+    color: white;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60vh;
+    
+
+}
+.btn .btn1{
+    position: relative;
+    left: 18vw;
+    bottom: -17vh;
+    background: transparent;
+    border: none;
+    
+}
+
+.btn1 img{
+    padding: 0%;
+    width: 3.8vw;
+    border-radius: 100%;
+    
+
+}
+.btn img:hover{
+    width:4vw;
+    border-radius: 100%;
+    background-color:red ;
+    transition: all 0.1s ease-out;
+}
+
+.S1{
+    padding: 3vw;
+}
+
+
+.P1{
+    text-align: center;
+    font-family: "Red Hat Display", serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.p1{
+    text-align: center;
+    font-family: "Red Hat Display", serif;
+    font-weight: 300;
+    font-size: 2rem;
+   
+}
+
+
+.whowearesection{
+    width: 100vw;
+    height: 69vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 38, 0);
+}
+
+.whoweare{
+   
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    padding: 5vw;
+    position:relative;
+
+
+}
+
+.P2{
+    
+    font-family: "Red Hat Display", serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+
+.p2{
+    font-family: "Red Hat Display", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.img3{
+    width: 52vw;
+    height: 69vh;
+}
+
+.img3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+
+.P3{
+    text-align: center;
+    font-family: "Red Hat Display", serif;
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+
+.p_3{
+    text-align: center;
+    font-family: "Red Hat Display", serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/*.animate{
+    width: 5vw;
+    height: 3lvh;
+    background-color: red;
+    border-radius: 40%;
+    position: relative;
+    left: 10vw;
+    transform: rotate(-60deg);
+    z-index: -111;
+    animation: animate 0.6s ease-in-out 0s infinite alternate-reverse; 
+} 
+*/
+    
+/* 
+@keyframes animate {
+
+    0%{
+        position: relative;
+        
+        
+    }
+    80%{
+        position: relative;
+        top: 20vh;
+        
+    }
+    100%{
+
+
+    }
+    
+} */
+
+
+.office{
+    display: flex;
+} 
+
+.belonging{
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img4{
+    width: 10vw;
+    height: 15vh;
+    margin-left: 5vw;
+}
+
+.img4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.P4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Red Hat Display", serif;
+    position: relative;
+    right: 4vw;
+}
+
+.p4{
+    font-weight: 800;
+    font-size:2rem;
+    margin-bottom: 15px;
+}
+
+.working{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Red Hat Display", serif;
+    background:linear-gradient(to right, tomato 50%, rgb(105, 255, 71) 50%);
+
+    
+}
+.P5{
+    text-align: center;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: tomato;
+}
+.p5{
+    font-weight: 800;
+    font-size:2rem;
+    margin-bottom: 15px;
+    
+}
+.P6{
+    text-align: center;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(105, 255, 71);
+}
+.p6{
+    font-weight: 800;
+    font-size:2rem;
+    margin-bottom: 15px;
+    
+}
+.img5{
+    width: 30vw;
+    height: 80vh;
+   
+}
+
+.img5 img{
+    width:30vw;
+    height: 80vh;
+    object-fit: cover;
+
+}
+.P7{
+    font-family: "Red Hat Display", serif;
+    text-align: center;
+    font-weight: 800; 
+    font-size: 2rem;
+    margin-top:10vh;
+}
+
+.images{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+  
+.img6 p{
+    margin-top: 4vh;
+    margin-top: 4vh;
+    position: relative;
+    left: 1px;
+    font-family: "Red Hat Display", serif;
+    font-weight: 700;
+}
+
+
+
+
+.oppr{
+    height: 85.2vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 0);
+    font-family: "Red Hat Display", serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.P8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+
+.p8{
+    position:relative;
+    bottom: 5vh;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.p_8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 8vh;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+.p_8:hover{
+
+    background-color: red;
+    border: 4px solid rgb(255, 255, 255);
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease-out;
+}
+
+.P9{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: "Red Hat Display", serif;
+    font-weight:900;
+    font-size: 3rem;
+
+}
+
+.P10{
+    text-align: center;
+    margin-top: 3vh;
+    font-family: "Red Hat Display", serif;
+    font-weight:500;
+    font-size: 2rem;
+}
+
+.btn3{
+   display: flex;
+   justify-content: center;
+   margin-top: 5vh;
+}
+
+.btn3 button{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: rgb(255, 38, 0);
+    color: #fff;
+    font-family: "Red Hat Display", serif;
+    font-weight:600;
+    font-size: 1rem;
+}
+
+.btn3 button:hover{
+    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(255, 38, 0);
+    font-weight:800;
+    transition: all 0.1s ease-out;
+
+
+}
+
+
+
+footer{
+    width:100vw;
+    height: 100vh;
+
+}
+
+.img8{
+    width: 100vw;
+    height: 100vh;
+  
+   
+}
+.img8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 3vh;
+}
+  
+
+
+.P11{
+  
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    bottom: 104vh;
+
+}
+
+.links{
+    width: 100vw;
+    height: 100.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 97vh;
+    background-color: black;
+    opacity:0.7;
+}
+
+.li1{
+    width: 5vw;
+    height: 5vh;
+   
+}
+
+.li1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.li1:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid red ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+.li2{
+    width: 5vw;
+    height: 5vh;
+    
+}
+
+.li2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+.li2:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 115, 255) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+.li3{
+    width: 5vw;
+    height: 5vh;
+}
+
+
+
+.li3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.li3:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(183, 0, 255) ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+
+
+.li4{
+    width: 5vw;
+    height: 5vh;
+}
+
+.li4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.li4:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 255, 8) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+    
+}   
+.li5{
+    width: 5vw;
+    height: 5vh;
+}
+
+.li5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+
+.li5:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 195, 255) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+    
+}   
