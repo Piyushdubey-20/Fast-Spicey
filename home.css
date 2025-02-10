@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0);
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.447);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.447);
+
+}
+    
+    
+
+
+.img1{
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.img1 img{
+    width: 5vh;
+    transform: rotate(30deg);
+  
+}
+.img1 img:hover{
+    width: 5.5vh;
+    transition: all 0.1s ease-out;   
+
+}
+    
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    font-family: "Red Hat Display", serif;
+    font-weight: 300;
+    padding-right:1rem;
+    padding-left: 1rem;
+    padding-bottom: 0rem;
+    border-bottom: 0px;
+    
+}
+ 
+.navbar ul li:hover{
+    font-weight: 500;
+    border-bottom: 2px solid red;
+    transition: all 0.1s ease-out;
+    background-color: rgba(0, 0, 0, 0.447);
+}    
+    
+.navbar a{
+    color: red;
+    text-decoration: none;
+}
+.navbar a:hover{
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+}
+
+.img2{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pics/food4.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+   
+    
+   
+}
+
+
+.h1{
+    font-family: "Red Hat Display", serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 64vh;
+    color: #fff;
+    font-size: 2rem;
+}
+.h1:hover{
+    font-size: 1.9rem;
+    color: red;
+    transition: all 0.1s ease-in-out;
+
+
+}
+
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60vh;
+}
+.search input{
+    width: 30.8vw;
+    height: 7vh;
+    border-radius: 20vw;
+    font-family: "Red Hat Display", serif;
+    border: 2px solid rgb(39,39,39);
+    color: red;
+}
+.search input:hover{
+    background-color:red ;
+    color: white;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60vh;
+
+}
+.btn button{
+    position: relative;
+    left: 18vw;
+    bottom: 7.5vh;
+    background: transparent;
+    border: none;
+}
+
+.btn img{
+    padding: 0%;
+    width: 3.8vw;
+    border-radius: 50%;
+
+}
+.btn img:hover{
+    width:4vw;
+    border-radius: 50%;
+    background-color:red ;
+    transition: all 0.1s ease-out;
+}
+
+.images{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img3{
+    background-image: url(pics/splash.avif);
+    background-size: 30vh;
+    background-position-x:-250px;
+    background-repeat: no-repeat;
+}
+   
+.img3 img:hover{
+    width: 205px;
+    transition: all 0.1s ease-in-out;
+} 
+
+.img3:hover{
+    background-position-x:-9px;
+    background-position-y:-5px;
+    transition: all 180ms ease-in-out;
+}    
+.img4{
+    background-image: url(pics/splash.avif);
+    background-size: 30vh;
+    background-position-x:-250px;
+    background-repeat: no-repeat;
+}
+   
+.img4 img:hover{
+    width: 205px;
+    transition: all 0.1s ease-in-out;
+} 
+
+.img4:hover{
+    background-position-x:-9px;
+    background-position-y:-1px;
+    transition: all 180ms ease-in-out;
+}    
+.img5{
+    background-image: url(pics/splash.avif);
+    background-size: 30vh;
+    background-position-x:-250px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 17px;
+}
+   
+.img5 img:hover{
+    width: 205px;
+    transition: all 0.1s ease-in-out;
+} 
+
+.img5:hover{
+    background-position-x:-9px;
+    background-position-y:-5px;
+    transition: all 180ms ease-in-out;
+}    
+   
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Red Hat Display", serif;
+    font-weight: 900;
+    position: relative;
+    bottom: 50px;
+}
+    
+.P1{
+    position: relative;
+    left: 57.2px;
+}
+.p1{
+    position: relative;
+    left: -53px;
+
+}
+
+
+
+.P2{
+    position: relative;
+    left: -41px;
+}
+.p2{
+    position: relative;
+    left: 8px;
+}
+
+
+
+.P3{
+    position: relative;
+    left: -10px;
+}
+.p3{
+    position: relative;
+    left: 2.8px;
+}
+
+.OV1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    height:66.4vh;
+   
+}
+.img6{
+    width: 50vw;
+    height: 104vh;
+    position: relative;
+    left: 12vw;
+    
+    
+}
+ 
+.img6 img{
+    width: 100%;
+    box-shadow: 0 5px 25px 0 rgba(0, 0,0, .25);
+    border-radius: 2px;
+}   
+
+.P4{
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4{
+    font-family: "Red Hat Display", serif;
+    text-align: center;
+}
+.OV2{
+    display: flex;
+   
+}
+
+
+.img7{
+    width: 50vw;
+    height: 104vh;
+    position: relative;
+    left: 5vw;
+}
+.img7 img{
+    width: 100%;
+    box-shadow: 0 5px 25px 0 rgba(0, 0,0, .25);
+    border-radius: 2px;
+} 
+
+
+.P5{
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+
+}
+
+
+.p5{
+    font-family: "Red Hat Display", serif;
+    text-align: center;
+   
+}
+
+.boxes{
+    width: 100vw;
+    height: 48vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    background-color: red;
+    position: relative;
+    bottom: 27vh;
+}
+
+
+.box1{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow:5px 5px 20px 0px rgba(0, 0, 0, 0.314) ;
+}
+
+.box1:hover{
+    width: 25vw;
+    height: 55vh;
+    transition: all 0.2s ease-out;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.P7{
+    width: 20vw;
+    height: 50vh;
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+    background-color: #0000008c;
+    position: relative;
+    bottom: 50vh;
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+}
+
+.p7{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    top: 10vh;
+
+}
+
+.p_7{
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 5vh;
+}
+
+ 
+.P7:hover{
+    width: 25vw;
+    height: 55vh;
+    position: relative;
+    bottom: 55.2vh;
+    opacity: 100;
+    transition: all 0.2s ease-out;
+} 
+    
+.box2{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow:5px 5px 20px 0px rgba(0, 0, 0, 0.314)
+}
+
+.box2:hover{
+    width: 25vw;
+    height: 55vh;
+    transition: all 0.2s ease-out;
+}
+
+.box2 img{
+    width: 179%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.P8{
+    width: 20vw;
+    height: 50vh;
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+    background-color: #0000008c;
+    position: relative;
+    bottom: 50vh;
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+}
+
+.p8{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    top: 10vh;
+
+}
+
+.p_8{
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 5vh;
+}
+
+ 
+.P8:hover{
+    width: 25vw;
+    height: 55vh;
+    position: relative;
+    bottom: 55.2vh;
+    opacity: 100;
+    transition: all 0.2s ease-out;
+} 
+
+.box3{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow:5px 5px 20px 0px rgba(0, 0, 0, 0.314)
+}
+
+.box3:hover{
+    width: 25vw;
+    height: 55vh;
+    transition: all 0.2s ease-out;
+}
+.box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+       
+.P9{
+    width: 20vw;
+    height: 50vh;
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+    background-color: #0000008c;
+    position: relative;
+    bottom: 50vh;
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+}
+
+.p9{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    top: 10vh;
+
+}
+
+.p_9{
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 5vh;
+}
+
+ 
+.P9:hover{
+    width: 25vw;
+    height: 55vh;
+    position: relative;
+    bottom: 55.2vh;
+    opacity: 100;
+    transition: all 0.2s ease-out;
+} 
+
+
+
+footer{
+    width:100vw;
+    height: 100vh;
+
+}
+
+.img8{
+    width: 100vw;
+    height: 100vh;
+  
+   
+}
+.img8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 3vh;
+}
+  
+
+
+.P10{
+  
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    bottom: 104vh;
+
+}
+
+.links{
+    width: 100vw;
+    height: 100.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 97vh;
+    background-color: black;
+    opacity:0.7;
+}
+
+.li1{
+    width: 5vw;
+    height: 5vh;
+   
+}
+
+.li1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.li1:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid red ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+.li2{
+    width: 5vw;
+    height: 5vh;
+    
+}
+
+.li2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+.li2:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 115, 255) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+.li3{
+    width: 5vw;
+    height: 5vh;
+}
+
+
+
+.li3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.li3:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(183, 0, 255) ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+}
+
+
+
+.li4{
+    width: 5vw;
+    height: 5vh;
+}
+
+.li4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.li4:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 255, 8) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+    
+}   
+.li5{
+    width: 5vw;
+    height: 5vh;
+}
+
+.li5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+
+.li5:hover{
+    width: 6vw;
+    height: 6vh;
+    border:2px solid rgb(0, 195, 255) ;
+    background-color: white;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+
+    
+}   
+
+
+
+
+
+
